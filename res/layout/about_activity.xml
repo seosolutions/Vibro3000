@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/about"
+    android:background="#fff">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:id="@+id/about_activity"
+        android:gravity="center"
+        android:text="@string/about_text"
+        />
+    <ImageView
+        android:layout_width="300dip"
+        android:layout_height="match_parent"
+        android:src="@drawable/blue_dildo" />
+
+
+</LinearLayout>

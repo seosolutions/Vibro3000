@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Vibro3000</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_screen">Menu_screen</string>
+    <string name="title_activity_rhythm">Rhythms</string>
+    <string name="about_text">"Welcome to the Vibro3000.The power for pleasure is now in your hands! We have 3 fists. If you are looking for a not so casual experience, we recommend the black fist. If you are looking for a bit of entertainment, then we recommend the blue fist. If you are really 'itching', then we recommend the red fist. One more thing: Have fun and Repent after. Note: We are not responsible for the guilt of your actions. Always know that this is not the right way. Why not use this for other purposes like waking up your cat(THE ANIMAL!), curing your headache, or pissing your friends off. Share the Love! Peace."</string>
+    <string name="head_text">Vibro3000</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_lonely">Lonely</string>
+    <string name="title_activity_bored">Bored</string>
+    <string name="title_activity_hungry">Hungry</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+</resources>
