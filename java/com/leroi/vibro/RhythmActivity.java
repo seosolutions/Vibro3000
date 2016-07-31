@@ -10,6 +10,7 @@ import android.widget.Button;
 
 
 public class RhythmActivity extends ActionBarActivity {
+    //Menu for selecting various vibration capabilities. The names are quite elusive ;}
     Button lonely_button;
     Button bored_button;
     Button hungry_button;
@@ -19,6 +20,7 @@ public class RhythmActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rhythm);
+        //May change names allowing users to set the names that they want
         lonely_button = (Button) findViewById(R.id.lonely_btn);
         bored_button = (Button) findViewById(R.id.bored_btn);
       hungry_button = (Button) findViewById(R.id.hungry_btn);
