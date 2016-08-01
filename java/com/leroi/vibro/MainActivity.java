@@ -24,9 +24,11 @@ public class MainActivity extends ActionBarActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_screen);
+        //Adding Static Adverts. Not really functional, just for learning purposes
         AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+        
         rhythm_button = (Button) findViewById(R.id.rhythms_btn);
         about_button = (Button) findViewById(R.id.about_btn);
         //not sure if i really want this button. I'll deal with it later.....
