@@ -28,7 +28,9 @@ public class BoredActivity extends Activity {
         start_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                myVib.vibrate(120000);
+                //Bored people may need something that last a while longer
+                //TODO: ALLOW USERS TO SET THEIR OWN VIBRATION PARAMETERS
+                myVib.vibrate(200000);
 
             }
         });
