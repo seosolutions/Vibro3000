@@ -15,7 +15,8 @@ public class HungryActivity extends Activity {
     Button start_button;
     Button stop_button;
     Vibrator myVib;
-    long[] pattern = {1000,1000,2000};
+    //Make the rhythms a little bit more interesting
+    long[] pattern = {2000,4000,8000};
 
 
 
@@ -47,12 +48,10 @@ public class HungryActivity extends Activity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
+       
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
+      
         if (id == R.id.action_settings) {
             return true;
         }
@@ -60,7 +59,8 @@ public class HungryActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
     @Override
-    public void onStop(){
+    //I Believe that private is a better option
+    private void onStop(){
         myVib.cancel();
        this.onStart();
     }
